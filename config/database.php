@@ -54,18 +54,17 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
-            'host' => getenv('db_host'),
+            // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+            'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => getenv('db_host'),
-            'username' => getenv('db_username'),
-            'password' => getenv('db_password'),
+            'database' => env('DB_DATABASE', 'wedding'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', 'root'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
             'strict' => false,
             'engine' => null,
-            'unix_socket' => '/tmp/mysql.sock'
         ],
 
         'pgsql' => [
