@@ -36,7 +36,7 @@
 	<p>Baked beans</p>
 
 	<h4>Dessert</h4>
-	<p>Dessert will be a selection of ice creams from:</p>
+	<p>Dessert will be a selection of ice cream from:</p>
 	<p>Vanilla</p>
 	<p>Chocolate</p>
 	<p>Strawberry</p>
