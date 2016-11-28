@@ -71,7 +71,7 @@
                       </table>
                       </div>
                     </div>
-                    <button id="export" class="btn-success pull-right">Export to Spreadsheet</button>
+                    <button id="export" class="btn btn-success pull-right">Export to Spreadsheet</button>
                 </div>
             </div>
         </div>
