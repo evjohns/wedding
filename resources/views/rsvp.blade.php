@@ -110,6 +110,8 @@ $(".adultSelect").change(function() {
 		
 		count ++;
 	}
+
+	$('html,body').animate({scrollTop: $(".guests-panel").offset().top},'slow');
 });
 
 $(".childSelect").change(function() {
