@@ -17,7 +17,7 @@
                     <div class="tab-content">
                       <div id="attending" class="tab-pane fade in active">
                         
-                        <table class="table table-hover table-responsive">
+                        <table class="table table-hover table-responsive table-attending">
                         <thead>
                           <tr>
                             <th>Name</th>
@@ -51,7 +51,7 @@
                       </table>
                       </div>
                       <div id="not-attending" class="tab-pane fade">
-                        <table class="table">
+                        <table class="table table-not-attending">
                         <thead>
                           <tr>
                             <th>Name</th>
@@ -131,7 +131,7 @@ $(document).ready(function () {
         outputFile = outputFile.replace('.csv','') + '.csv'
          
         // CSV
-        exportTableToCSV.apply(this, [$('.table'), outputFile]);
+        exportTableToCSV.apply(this, [$('.table-attending'), outputFile]);
         
         // IF CSV, don't do event.preventDefault() or return false
         // We actually need this to be a typical hyperlink
