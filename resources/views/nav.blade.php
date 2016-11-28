@@ -44,8 +44,8 @@ $(".burger-nav").click(function() {
 		$("#page").animate({"margin-right": "250px", "margin-left": "-250px"});
 		$("#side-nav").animate({"width": "250px"});
 	} else {
-		$("#side-nav").animate({"width": "0"});
 		$("#page").animate({"margin-right": "0px", "margin-left": "0px"});
+		$("#side-nav").animate({"width": "0"});
 	}
 });
 </script>
