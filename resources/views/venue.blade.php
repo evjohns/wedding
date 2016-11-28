@@ -95,7 +95,7 @@
 
 			<p>The on site restaurant is called the Terrace, we would highly reccommend it; they will also be catering for the wedding. You can see their menu <a href="http://www.gwelanmor.com/eat" target="_blank">here.</a></p>
 
-			<p>For the kids there's Feadon Farm, a small petting farm where you can get up close and personal to wildlife, as diverse as reindeer and badgers and also hand feed foxes. Basecamp is also next to the wedding venue which has an enormous soft play area and a "Clip'n'Climb" climbing wall where the kids can play for free during the wedding and will be supervised by staff, so parents can enjoy themselves next door while the kids are look after.</p>
+			<p>For the kids there's Feadon Farm, a small petting farm where you can get up close and personal to wildlife, as diverse as reindeer and badgers and also hand feed foxes. Basecamp is also next to the wedding venue which has an enormous soft play area and a "Clip'n'Climb" climbing wall where the kids can play for free during the wedding and will be supervised by staff, so parents can enjoy themselves next door while the kids are looked after.</p>
 
 			<div class="basecamp-vid">
 				<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FGwelanMor%2Fvideos%2F10154438457820219%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
