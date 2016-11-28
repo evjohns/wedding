@@ -101,17 +101,17 @@
 				<ul id="activities-slider">
 				  <li>
 				    <a href="#slide1">
-				      <img src="{{ asset('/img/activity-1.jpg') }}" alt="">
+				      <img src="{{ asset('/img/activity-12.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide2">
-				      <img src="{{ asset('/img/activity-2.jpg') }}"  alt="">
+				      <img src="{{ asset('/img/activity-13.jpg') }}"  alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide3">
-				      <img src="{{ asset('/img/activity-3.jpg') }}" alt="">
+				      <img src="{{ asset('/img/activity-14.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
@@ -150,6 +150,21 @@
 				    </a>
 				  </li>
 				</ul>
+				<li>
+				    <a href="#slide11">
+				      <img src="{{ asset('/img/activity-1.jpg') }}" alt="">
+				    </a>
+				  </li>
+				  <li>
+				    <a href="#slide12">
+				      <img src="{{ asset('/img/activity-2.jpg') }}"  alt="">
+				    </a>
+				  </li>
+				  <li>
+				    <a href="#slide13">
+				      <img src="{{ asset('/img/activity-3.jpg') }}" alt="">
+				    </a>
+				  </li>
 			</div>
 
 			<div class="basecamp-vid">
