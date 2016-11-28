@@ -6,7 +6,7 @@
 	<meta name="author" content="Scotch">
 	<meta name="viewport" content="width=device-width">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>example</title>
+    <title>Evan & Faye 19.05.2018</title>
 	
     <link rel="stylesheet" href="{{ asset('/css/slippry.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
