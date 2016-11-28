@@ -49,6 +49,7 @@
                         
                         </tbody>
                       </table>
+                      <a id="export-attending" role='button' href="#" class="btn btn-success pull-right">Export to Spreadsheet</a>
                       </div>
                       <div id="not-attending" class="tab-pane fade">
                         <table class="table table-not-attending">
@@ -69,9 +70,9 @@
                         
                         </tbody>
                       </table>
+                      <a id="export-not-attending" role='button' href="#" class="btn btn-success pull-right">Export to Spreadsheet</a>
                       </div>
                     </div>
-                    <a id="export" role='button' href="#" class="btn btn-success pull-right">Export to Spreadsheet</a>
                 </div>
             </div>
         </div>
@@ -124,14 +125,27 @@ $(document).ready(function () {
 
 
     // This must be a hyperlink
-    $("#export").click(function (event) {
+    $("#export-attending").click(function (event) {
         // var outputFile = 'export'
         alert('hello');
-        var outputFile = 'guests';
+        var outputFile = 'guests-not-attending';
         outputFile = outputFile.replace('.csv','') + '.csv'
          
         // CSV
         exportTableToCSV.apply(this, [$('.table-attending'), outputFile]);
+        
+        // IF CSV, don't do event.preventDefault() or return false
+        // We actually need this to be a typical hyperlink
+    });
+
+    $("#export-not-attending").click(function (event) {
+        // var outputFile = 'export'
+        alert('hello');
+        var outputFile = 'guests-attending';
+        outputFile = outputFile.replace('.csv','') + '.csv'
+         
+        // CSV
+        exportTableToCSV.apply(this, [$('.table-not-attending'), outputFile]);
         
         // IF CSV, don't do event.preventDefault() or return false
         // We actually need this to be a typical hyperlink
