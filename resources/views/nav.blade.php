@@ -1,11 +1,11 @@
 <nav class="main-nav">
 	<div class="nav-container">
 		<div class="nav-header">
-			<a href="home-page">Evan & Faye</a>
+			<a href="/">Evan & Faye</a>
 		</div>
 		<ul class="nav-options">
 			<li>
-				<a href="home-page">Home</a>
+				<a href="/">Home</a>
 			</li>
 			<li>
 				<a href="rsvp">RSVP</a>
