@@ -142,7 +142,7 @@ $("#submitNamesNotAttending").click(function(e) {
 		} else {
 			$.ajax({
 				type: "post",
-				url: "/public/rsvp/submitnotattending",
+				url: "/rsvp/submitnotattending",
 				data: { "type": "child", "name": $(this).val() },
 				success: function()
 				{
@@ -158,7 +158,7 @@ $("#submitNamesNotAttending").click(function(e) {
 		} else {
 			$.ajax({
 				type: "post",
-				url: "/public/rsvp/submitnotattending",
+				url: "/rsvp/submitnotattending",
 				data: { "type": "child", "name": $(this).val() },
 				success: function()
 				{
@@ -314,7 +314,7 @@ $("button.submit").click(function(e) {
 
 		$.ajax({
 			type: "post",
-			url: "/public/rsvp/submit",
+			url: "/rsvp/submit",
 			data: {"type": "adult", "name": name, "starter": starter, "main": main, "requirements": requirements},
 			success: function() 
 			{
@@ -330,7 +330,7 @@ $("button.submit").click(function(e) {
 
 		$.ajax({
 			type: "post",
-			url: "/public/rsvp/submit",
+			url: "/rsvp/submit",
 			data: {"type": "child", "name": name, "main": main, "requirements": requirements},
 			success: function() 
 			{
