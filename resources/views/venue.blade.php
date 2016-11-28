@@ -5,7 +5,8 @@
 <section class="venue-container">
 	<div class=" intro">
 		<h3>Gwel an mor</h3>
-		<p>A place to stay, to surf, to relax, to drift, to enjoy, to breathe. Holiday lodges in Cornwall beside the beach, unspoilt nature, fantastic food and great for all the family.</p>
+		<p>We decided to get married in Cornwall because we both love it there and want to get married in our favourite place in the UK.</p>
+		<p>We decided to have a look at<a href="http://www.gwelanmor.com/">Gwel an Mor</a> after seeing it advertised as a prize on family fortunes! We first went down there last october and have to say we were suitably impressed. The swedish style lodges are lovely and there are a few different choices ranging in price.</p>
 	</div>
 
 	<div class="venue-slider-wrapper">
