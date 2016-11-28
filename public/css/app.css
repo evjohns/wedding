@@ -276,6 +276,9 @@ html {
         html body .venue-container .venue-slider-wrapper .sy-slides-wrap {
           max-height: 500px;
           overflow: hidden; }
+        @media screen and (max-width: 600px) {
+          html body .venue-container .venue-slider-wrapper .sy-pager {
+            display: none; } }
       html body .venue-container h3 {
         text-align: center;
         padding: 30px 0; }

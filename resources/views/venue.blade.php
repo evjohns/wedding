@@ -6,7 +6,7 @@
 	<div class=" intro">
 		<h3>Gwel an mor</h3>
 		<p>We decided to get married in Cornwall because we both love it there and want to get married in our favourite place in the UK.</p>
-		<p>We decided to have a look at<a href="http://www.gwelanmor.com/">Gwel an Mor</a> after seeing it advertised as a prize on family fortunes! We first went down there last october and have to say we were suitably impressed. The swedish style lodges are lovely and there are a few different choices ranging in price.</p>
+		<p>We decided to have a look at <a href="http://www.gwelanmor.com/">Gwel an Mor</a> after seeing it advertised as a prize on family fortunes! We first went down there last october and have to say we were suitably impressed. The swedish style lodges are lovely and there are a few different choices ranging in price.</p>
 	</div>
 
 	<div class="venue-slider-wrapper">
@@ -88,7 +88,7 @@
 			<h3>Things to do ...</h3>
 			<p>Gwel has plenty to do for both adults and children. There is an indoor swimming pool alongside a fitness room and spa. There's a golf course currently being built and a fishing lake.</p>
 
-			<p>For the kids there's Feadon Farm, a small petting farm where you can get up close and personal to wildlife, as diverse as reindeer and badgersand also hand feed foxes. Basecamp is also next to the wedding venue which has an enormous soft play area where the kids can play for free and will be supervised by staff, so no need for parents to hang around!</p>
+			<p>For the kids there's Feadon Farm, a small petting farm where you can get up close and personal to wildlife, as diverse as reindeer and badgersand also hand feed foxes. Basecamp is also next to the wedding venue which has an enormous soft play area where the kids can play for free during the wedding and will be supervised by staff, so parents can enjoy themselves next door while the kids are look after.</p>
 
 			<div class="basecamp-vid">
 				<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FGwelanMor%2Fvideos%2F10154438457820219%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
@@ -97,7 +97,7 @@
 
 		<div class="location">
 			<h3>Location</h3>
-			<p>Gwel is in Portreath on the north coast of Cornwall. Roughly half an hour away from Newquay, St Ives and Truro. Hayle is about 20 minutes away and has a beautiful long beach.</p>
+			<p>Gwel is in Portreath on the north coast of Cornwall. Roughly half an hour away from Newquay, St Ives and Truro. Hayle is about 20 minutes away and has a beautiful long beach where surfboards can be hired as well as the normal beach related activities.</p>
 			<div class="address">
 				<address>
 				Address:<br>

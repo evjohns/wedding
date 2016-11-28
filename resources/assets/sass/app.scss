@@ -375,6 +375,11 @@ html {
 					max-height: 500px;
 					overflow: hidden;
 				}
+				.sy-pager {
+					@media screen and (max-width: 600px) {
+						display: none;
+					}
+				}
 			}
 			h3 {
 				text-align: center;
