@@ -98,7 +98,7 @@
 			<p>For the kids there's Feadon Farm, a small petting farm where you can get up close and personal to wildlife, as diverse as reindeer and badgers and also hand feed foxes. Basecamp is also next to the wedding venue which has an enormous soft play area and a "Clip'n'Climb" climbing wall where the kids can play for free during the wedding and will be supervised by staff, so parents can enjoy themselves next door while the kids are looked after.</p>
 
 			<div class="venue-slider-wrapper">
-			<ul id="venue-slider">
+			<ul id="activities-slider">
 			  <li>
 			    <a href="#slide1">
 			      <img src="{{ asset('/img/lowena-1.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
@@ -208,6 +208,47 @@
 	<script>
 		$(function() {
 			var demo1 = $("#venue-slider").slippry({
+				// transition: 'fade',
+				// useCSS: true,
+				// speed: 1000,
+				// pause: 3000,
+				// auto: true,
+				// preload: 'visible',
+				// autoHover: false
+			});
+
+			$('.stop').click(function () {
+				demo1.stopAuto();
+			});
+
+			$('.start').click(function () {
+				demo1.startAuto();
+			});
+
+			$('.prev').click(function () {
+				demo1.goToPrevSlide();
+				return false;
+			});
+			$('.next').click(function () {
+				demo1.goToNextSlide();
+				return false;
+			});
+			$('.reset').click(function () {
+				demo1.destroySlider();
+				return false;
+			});
+			$('.reload').click(function () {
+				demo1.reloadSlider();
+				return false;
+			});
+			$('.init').click(function () {
+				demo1 = $("#demo1").slippry();
+				return false;
+			});
+		});
+
+		$(function() {
+			var demo1 = $("#activities-slider").slippry({
 				// transition: 'fade',
 				// useCSS: true,
 				// speed: 1000,
