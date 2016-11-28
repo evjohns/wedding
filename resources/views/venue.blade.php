@@ -12,7 +12,7 @@
 		<ul id="venue-slider">
 		  <li>
 		    <a href="#slide1">
-		      <img src="{{ asset('/img/lowena-1.jpg' }}" alt="Lowena Lodge Sleeps 4 - 5">
+		      <img src="{{ asset('/img/lowena-1.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
 		  </li>
 		  <li>
