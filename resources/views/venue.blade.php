@@ -8,10 +8,7 @@
 		<p>We decided to get married in Cornwall because we both love it there and wanted to get married in our favourite place in the UK. We decided to have a look at <a href="http://www.gwelanmor.com/" target="_blank">Gwel an Mor</a> after seeing it advertised as a prize on family fortunes! We first went down there last May and have to say we were suitably impressed. The swedish style lodges are lovely and there are a few different choices ranging in price. There are also plenty of alternative places to stay nearby in Newquay, St Ives or Hayle. Everything from campsites to B&B's to posh hotels.</p>
 	</div>
 
-	<hr>
-
 	<div class="accommodation">
-	<h3>Accommodation</h3>
 	<p>The lodges are self catered, sleeping from 4 to 6 people. All are 5 star and very well equipped. All lodges have a full sized kitchen with all mod cons you might need and they all have an outside terrace, some even have a hot tub.</p>
 
 	<div class="venue-slider-wrapper">
