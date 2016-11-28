@@ -5,8 +5,7 @@
 <section class="venue-container">
 	<div class=" intro">
 		<h3>Gwel an mor</h3>
-		<p>We decided to get married in Cornwall because we both love it there and want to get married in our favourite place in the UK.</p>
-		<p>We decided to have a look at <a href="http://www.gwelanmor.com/">Gwel an Mor</a> after seeing it advertised as a prize on family fortunes! We first went down there last october and have to say we were suitably impressed. The swedish style lodges are lovely and there are a few different choices ranging in price.</p>
+		<p>We decided to get married in Cornwall because we both love it there and want to get married in our favourite place in the UK. We decided to have a look at <a href="http://www.gwelanmor.com/" target="_blank">Gwel an Mor</a> after seeing it advertised as a prize on family fortunes! We first went down there last october and have to say we were suitably impressed. The swedish style lodges are lovely and there are a few different choices ranging in price. There are also plenty of alternative places to stay nearby in Newquay, St Ives or Hayle. Everyhting from campsites to B&B's to posh hotels.</p>
 	</div>
 
 	<div class="venue-slider-wrapper">
