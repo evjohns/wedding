@@ -9,7 +9,7 @@
 	</div>
 
 	<div class="accommodation">
-	<p>The lodges are self catered, sleeping from 4 to 6 people. All are 5 star and very well equipped. All lodges have a full sized kitchen with all mod cons you might need and they all have an outside terrace, some even have a hot tub.</p>
+	<p>The lodges are self catered, sleeping from 4 to 6 people. All are 5 star and very well equipped. All lodges have a full sized kitchen with all mod cons you might need and they all have an outside terrace, some even have a hot tub!</p>
 
 	<div class="venue-slider-wrapper">
 		<ul id="venue-slider">
@@ -91,7 +91,7 @@
 
 		<div class="activities">
 			<h3>Things to do ...</h3>
-			<p>Gwel has plenty to do for both adults and children. There is an indoor swimming pool alongside a fitness room and spa. There's a golf course currently being built and a fishing lake.</p>
+			<p>Gwel has plenty to do for both adults and children. There is an indoor swimming pool alongside a fitness room and spa. There's a golf course currently being built and a fishing lake as well as tennis courts and a putting green</p>
 
 			<p>For the kids there's Feadon Farm, a small petting farm where you can get up close and personal to wildlife, as diverse as reindeer and badgersand also hand feed foxes. Basecamp is also next to the wedding venue which has an enormous soft play area where the kids can play for free during the wedding and will be supervised by staff, so parents can enjoy themselves next door while the kids are look after.</p>
 
