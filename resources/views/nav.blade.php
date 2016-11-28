@@ -42,10 +42,10 @@ $(".burger-nav").click(function() {
 
 	if ($(this).hasClass("active")) {
 		$("#page").animate({"margin-right": "250px", "margin-left": "-250px"}, 1000);
-		$("#side-nav").animate({"width": "250px"});
+		$("#side-nav").animate({"width": "250px"}, 1000);
 	} else {
 		$("#page").animate({"margin-right": "0px", "margin-left": "0px"},1000);
-		$("#side-nav").animate({"width": "0"});
+		$("#side-nav").animate({"width": "0"}, 1000);
 	}
 });
 </script>
