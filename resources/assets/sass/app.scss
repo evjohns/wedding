@@ -317,10 +317,15 @@ html {
 				text-align: center;
 			}
 			form.rsvpForm {
-			margin-top: 40px;
+				margin-top: 40px;
 				.col-md-offset-4 {
 					@media screen and (max-width: 1000px) {
 						padding-left: 0px;
+					}
+					button {
+						@media screen and (max-width: 600px) {
+							padding-top: 10px;
+						}
 					}
 				}
 			}
