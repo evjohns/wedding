@@ -237,6 +237,9 @@ html {
       text-align: center; }
     html body .rsvp-container form.rsvpForm {
       margin-top: 40px; }
+      @media screen and (max-width: 1000px) {
+        html body .rsvp-container form.rsvpForm .col-md-offset-4 {
+          padding-left: 0px; } }
     html body .rsvp-container .guests-panel, html body .rsvp-container .food-panel, html body .rsvp-container .success-panel, html body .rsvp-container .success-panel-not-attending {
       display: none; }
     html body .rsvp-container .panel-heading {

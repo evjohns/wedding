@@ -318,6 +318,11 @@ html {
 			}
 			form.rsvpForm {
 			margin-top: 40px;
+				.col-md-offset-4 {
+					@media screen and (max-width: 1000px) {
+						padding-left: 0px;
+					}
+				}
 			}
 			.guests-panel, .food-panel, .success-panel, .success-panel-not-attending {
 				display: none;
