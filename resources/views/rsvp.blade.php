@@ -69,12 +69,12 @@
 			
 			<div class="panel panel-default success-panel">
 				<div class="panel-body">
-					<h4><img src="/resources/assets/img/green-tick.png">Thanks! We look forward to seeing you at the wedding!</h4>
+					<h4><img src="{{ asset('/img/green-tick.png') }}">Thanks! We look forward to seeing you at the wedding!</h4>
 				</div>
 			</div>
 			<div class="panel panel-default success-panel-not-attending">
 				<div class="panel-body">
-					<h4><img src="/resources/assets/img/green-tick.png">Sorry you can't make it, but thanks for letting us know.</h4>
+					<h4><img src="{{ asset('/img/green-tick.png') }}">Sorry you can't make it, but thanks for letting us know.</h4>
 				</div>
 			</div>
 		</div>

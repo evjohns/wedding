@@ -17,7 +17,7 @@
 			  </li>
 			  <li>
 			    <a href="#slide2">
-			      <img src="{{ asset('/img/cornwall-2.jpg') }}  alt="">
+			      <img src="{{ asset('/img/cornwall-2.jpg') }}"  alt="">
 			    </a>
 			  </li>
 			  <li>

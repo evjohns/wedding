@@ -12,72 +12,72 @@
 		<ul id="venue-slider">
 		  <li>
 		    <a href="#slide1">
-		      <img src="../resources/assets/img/lowena-1.jpg" alt="Lowena Lodge Sleeps 4 - 5">
+		      <img src="{{ asset('/img/lowena-1.jpg' }}" alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide2">
-		      <img src="../resources/assets/img/lowena-2.jpg"  alt="Lowena Lodge Sleeps 4 - 5">
+		      <img src="{{ asset('/img/lowena-2.jpg') }}"  alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide3">
-		      <img src="../resources/assets/img/lowena-3.jpg" alt="Lowena Lodge Sleeps 4 - 5">
+		      <img src="{{ asset('/img/lowena-3.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide4">
-		      <img src="../resources/assets/img/lowena-4.jpg" alt="Lowena Lodge Sleeps 4 - 5">
+		      <img src="{{ asset('/img/lowena-4.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide5">
-		      <img src="../resources/assets/img/residence-1.jpg" alt="Residence Lodge 2 bed or 3 bed">
+		      <img src="{{ asset('/img/residence-1.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide6">
-		      <img src="../resources/assets/img/residence-2.jpg" alt="Residence Lodge 2 bed or 3 bed">
+		      <img src="{{ asset('/img/residence-2.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide7">
-		      <img src="../resources/assets/img/residence-3.jpg" alt="Residence Lodge 2 bed or 3 bed">
+		      <img src="{{ asset('/img/residence-3.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide8">
-		      <img src="../resources/assets/img/residence-4.jpg" alt="Residence Lodge 2 bed or 3 bed">
+		      <img src="{{ asset('/img/residence-4.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide3">
-		      <img src="../resources/assets/img/residence-5.jpg" alt="Residence Lodge 2 bed or 3 bed">
+		      <img src="{{ asset('/img/residence-5.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide10">
-		      <img src="../resources/assets/img/tregea-1.jpg" alt="Tregea Lodge Sleeps 6">
+		      <img src="{{ asset('/img/tregea-1.jpg') }}" alt="Tregea Lodge Sleeps 6">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide11">
-		      <img src="../resources/assets/img/tregea-2.jpg" alt="Tregea Lodge Sleeps 6">
+		      <img src="{{ asset('/img/tregea-2.jpg') }}" alt="Tregea Lodge Sleeps 6">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide12">
-		      <img src="../resources/assets/img/tregea-3.jpg" alt="Tregea Lodge Sleeps 6">
+		      <img src="{{ asset('/img/tregea-3.jpg') }}" alt="Tregea Lodge Sleeps 6">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide13">
-		      <img src="../resources/assets/img/tregea-vip-1.jpg" alt="Tregea VIP Lodge Sleeps 6">
+		      <img src="{{ asset('/img/tregea-vip-1.jpg') }}" alt="Tregea VIP Lodge Sleeps 6">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="#slide14">
-		      <img src="../resources/assets/img/tregea-vip-2.jpg" alt="Tregea VIP Lodge Sleeps 6">
+		      <img src="{{ asset('/img/tregea-vip-2.jpg') }}" alt="Tregea VIP Lodge Sleeps 6">
 		    </a>
 		  </li>
 		</ul>
