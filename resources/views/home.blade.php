@@ -69,10 +69,9 @@
                         
                         </tbody>
                       </table>
-                      <button id="export" class="btn success-btn">Export to Spreadsheet</button>
                       </div>
                     </div>
-
+                    <button id="export" class="btn-success pull-right">Export to Spreadsheet</button>
                 </div>
             </div>
         </div>
@@ -153,6 +152,7 @@ $(document).ready(function () {
     // This must be a hyperlink
     $("#export").click(function (event) {
         // var outputFile = 'export'
+        alert('hello');
         var outputFile = 'guests';
         outputFile = outputFile.replace('.csv','') + '.csv'
          
