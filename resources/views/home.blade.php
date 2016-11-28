@@ -154,7 +154,6 @@ $(document).ready(function () {
     // This must be a hyperlink
     $("#export-attending").click(function (event) {
         // var outputFile = 'export'
-        alert('hello');
         var outputFile = 'guests-attending';
         outputFile = outputFile.replace('.csv','') + '.csv'
          
