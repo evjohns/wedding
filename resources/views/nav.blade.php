@@ -41,7 +41,8 @@ $(".burger-nav").click(function() {
 	$(".nav-links").toggleClass("active");
 
 	if ($(this).hasClass("active")) {
-    	document.getElementById("page").style.marginRight = "250px";
+		$("#page").animate({"margin-right": "250px"}, 500);
+    	// document.getElementById("page").style.marginRight = "250px";
     	document.getElementById("page").style.marginLeft = "-250px";
     	document.getElementById("side-nav").style.width = "250px";
 	} else {
