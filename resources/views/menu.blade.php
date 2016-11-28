@@ -25,6 +25,9 @@
 	<p>Vanilla Crème Brulee</p>
 	<p>Chocolate Brownie</p>
 
+	<h3>Childrens Menu</h3>
+	<p>Children have a choice of either Chicken Goujons or Margherita Pizza as a main. They will be able to choose two sides from a range of things on the day. For desert they have a range of icecreams.</p>
+
 </section>
 	
 @stop
