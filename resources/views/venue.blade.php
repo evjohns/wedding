@@ -101,52 +101,52 @@
 				<ul id="activities-slider">
 				  <li>
 				    <a href="#slide1">
-				      <img src="{{ asset('/img/activity-1.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
+				      <img src="{{ asset('/img/activity-1.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide2">
-				      <img src="{{ asset('/img/activity-2.jpg') }}"  alt="Lowena Lodge Sleeps 4 - 5">
+				      <img src="{{ asset('/img/activity-2.jpg') }}"  alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide3">
-				      <img src="{{ asset('/img/activity-3.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
+				      <img src="{{ asset('/img/activity-3.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide4">
-				      <img src="{{ asset('/img/activity-4.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
+				      <img src="{{ asset('/img/activity-4.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide5">
-				      <img src="{{ asset('/img/activity-5.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
+				      <img src="{{ asset('/img/activity-5.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide6">
-				      <img src="{{ asset('/img/activity-6.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
+				      <img src="{{ asset('/img/activity-6.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide7">
-				      <img src="{{ asset('/img/activity-7.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
+				      <img src="{{ asset('/img/activity-7.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide8">
-				      <img src="{{ asset('/img/activity-8.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
+				      <img src="{{ asset('/img/activity-8.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide9">
-				      <img src="{{ asset('/img/activity-9.jpg') }}" alt="Residence Lodge 2 bed or 3 bed">
+				      <img src="{{ asset('/img/activity-9.jpg') }}" alt="">
 				    </a>
 				  </li>
 				  <li>
 				    <a href="#slide10">
-				      <img src="{{ asset('/img/activity-10.jpg') }}" alt="Tregea Lodge Sleeps 6">
+				      <img src="{{ asset('/img/activity-10.jpg') }}" alt="">
 				    </a>
 				  </li>
 				</ul>
