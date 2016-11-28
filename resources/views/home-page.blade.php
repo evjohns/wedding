@@ -12,27 +12,27 @@
 			<ul id="hp-slider">
 			  <li>
 			    <a href="#slide1">
-			      <img src="../resources/assets/img/cornwall-1.jpg" alt="">
+			      <img src="{{ asset('/img/cornwall-1.jpg') }}" alt="">
 			    </a>
 			  </li>
 			  <li>
 			    <a href="#slide2">
-			      <img src="../resources/assets/img/cornwall-2.jpg"  alt="">
+			      <img src="{{ asset('/img/cornwall-2.jpg') }}  alt="">
 			    </a>
 			  </li>
 			  <li>
 			    <a href="#slide3">
-			      <img src="../resources/assets/img/cornwall-3.jpg" alt="">
+			      <img src="{{ asset('/img/cornwall-3.jpg') }}" alt="">
 			    </a>
 			  </li>
 			  <li>
 			    <a href="#slide4">
-			      <img src="../resources/assets/img/cornwall-4.jpg" alt="">
+			      <img src="{{ asset('/img/cornwall-4.jpg') }}" alt="">
 			    </a>
 			  </li>
 			  <li>
 			    <a href="#slide5">
-			      <img src="../resources/assets/img/cornwall-5.jpg" alt="">
+			      <img src="{{ asset('/img/cornwall-5.jpg') }}" alt="">
 			    </a>
 			  </li>
 			</ul>
