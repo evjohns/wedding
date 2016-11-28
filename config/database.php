@@ -56,7 +56,7 @@ return [
             'driver' => 'mysql',
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
             'host' => getenv('db_host'),
-            // 'port' => env('DB_PORT', '3306'),
+            'port' => env('DB_PORT', '3306'),
             'database' => 'wedding',
             'username' => getenv('db_username'),
             'password' => getenv('db_password'),
