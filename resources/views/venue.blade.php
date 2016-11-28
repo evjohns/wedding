@@ -149,7 +149,6 @@
 				      <img src="{{ asset('/img/activity-10.jpg') }}" alt="">
 				    </a>
 				  </li>
-				</ul>
 				<li>
 				    <a href="#slide11">
 				      <img src="{{ asset('/img/activity-1.jpg') }}" alt="">
@@ -165,6 +164,7 @@
 				      <img src="{{ asset('/img/activity-3.jpg') }}" alt="">
 				    </a>
 				  </li>
+				 </ul>
 			</div>
 
 			<div class="basecamp-vid">
