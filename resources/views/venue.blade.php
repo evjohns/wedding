@@ -83,6 +83,8 @@
 		</ul>
 	</div>
 
+	<hr>
+
 		<div class="activities">
 			<h3>Things to do ...</h3>
 			<p>Gwel has plenty to do for both adults and children. There is an indoor swimming pool alongside a fitness room and spa. There's a golf course currently being built and a fishing lake.</p>
@@ -93,6 +95,8 @@
 				<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FGwelanMor%2Fvideos%2F10154438457820219%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 			</div>
 		</div>
+
+		<hr>
 
 		<div class="location">
 			<h3>Location</h3>
