@@ -27,10 +27,10 @@
 
 	<h3>Childrens Menu</h3>
 	<h4>Main</h4>
-	<p>Children have a choice of either Chicken Goujons or Margherita Pizza as a main. They will also be able to choose two sides from a range of things on the day. For desert they have a range of icecreams.</p>
+	<p>Children have a choice of either Chicken Goujons or Margherita Pizza as a main. They will also be able to choose two sides from a range of things on the day. For dessert they have a range of icecreams.</p>
 
 	<h4>Dessert</h4>
-	<p>Dessert will be a selection of icecream from:</p>
+	<p>Dessert will be a selection of ice cream from:</p>
 	<p>Vanilla</p>
 	<p>Chocolate</p>
 	<p>Strawberry</p>
