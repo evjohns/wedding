@@ -242,7 +242,7 @@ html {
           padding-left: 0px; } }
       @media screen and (max-width: 600px) {
         html body .rsvp-container form.rsvpForm .col-md-offset-4 button {
-          padding-top: 10px; } }
+          margin-top: 10px; } }
     html body .rsvp-container .guests-panel, html body .rsvp-container .food-panel, html body .rsvp-container .success-panel, html body .rsvp-container .success-panel-not-attending {
       display: none; }
     html body .rsvp-container .panel-heading {
