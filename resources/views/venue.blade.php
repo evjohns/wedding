@@ -93,6 +93,8 @@
 			<h3>Things to do ...</h3>
 			<p>Gwel has plenty to do for both adults and children. There is an indoor swimming pool alongside a fitness room and spa. There's a golf course currently being built and a fishing lake as well as tennis courts and a putting green</p>
 
+			<p>The on site restaurant is called the Terrace, we would highly reccommend it, they will also be catering for the wedding. You can see their menu <a href="http://www.gwelanmor.com/eat" target="_blank">here.</a></p>
+
 			<p>For the kids there's Feadon Farm, a small petting farm where you can get up close and personal to wildlife, as diverse as reindeer and badgersand also hand feed foxes. Basecamp is also next to the wedding venue which has an enormous soft play area where the kids can play for free during the wedding and will be supervised by staff, so parents can enjoy themselves next door while the kids are look after.</p>
 
 			<div class="basecamp-vid">
