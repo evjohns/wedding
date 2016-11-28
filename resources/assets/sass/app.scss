@@ -206,10 +206,11 @@ html {
 			}
 		}
 		.side-nav {
+		display: none;
 			background-color: #fff;
 		    height: 100%; /* 100% Full-height */
-		    width: 0; /* 0 width - change this with JavaScript */
-		    position: fixed; /* Stay in place */
+		    width: 250px; /* 0 width - change this with JavaScript */
+		    position: absolute; /* Stay in place */
 		    z-index: 1001; /* Stay on top */
 		    top: 0;
 		    right: 0;
@@ -231,13 +232,6 @@ html {
 			}
 			.side-nav a:hover, .offcanvas a:focus{
 			    color: #f1f1f1;
-			}
-			.side-nav .closebtn {
-			    position: absolute;
-			    top: 0;
-			    right: 25px;
-			    font-size: 36px;
-			    margin-left: 50px;
 			}
 			@media screen and (max-height: 450px) {
 			    .side-nav {padding-top: 15px;}

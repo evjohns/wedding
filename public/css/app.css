@@ -145,12 +145,13 @@ html {
           transition: transform 0.2s;
           transform: translateY(0); }
     html body .side-nav {
+      display: none;
       background-color: #fff;
       height: 100%;
       /* 100% Full-height */
-      width: 0;
+      width: 250px;
       /* 0 width - change this with JavaScript */
-      position: fixed;
+      position: absolute;
       /* Stay in place */
       z-index: 1001;
       /* Stay on top */
@@ -175,12 +176,6 @@ html {
           text-decoration: none; }
       html body .side-nav .side-nav a:hover, html body .side-nav .offcanvas a:focus {
         color: #f1f1f1; }
-      html body .side-nav .side-nav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px; }
       @media screen and (max-height: 450px) {
         html body .side-nav .side-nav {
           padding-top: 15px; }
