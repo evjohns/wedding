@@ -71,7 +71,7 @@
                       </table>
                       </div>
                     </div>
-                    <button id="export" class="btn btn-success pull-right">Export to Spreadsheet</button>
+                    <a id="export" role='button' href="#" class="btn btn-success pull-right">Export to Spreadsheet</a>
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@ $(document).ready(function () {
         outputFile = outputFile.replace('.csv','') + '.csv'
          
         // CSV
-        exportTableToCSV.apply(this, [$('table'), outputFile]);
+        exportTableToCSV.apply(this, [$('.panel-body > table'), outputFile]);
         
         // IF CSV, don't do event.preventDefault() or return false
         // We actually need this to be a typical hyperlink
