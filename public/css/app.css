@@ -43,8 +43,12 @@ html {
     html body p {
       color: #555; }
     html body footer {
-      position: absolute;
-      bottom: 0; }
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      height: 30px;
+      width: 100%;
+      background: #999; }
     html body nav.main-nav {
       padding: 0 20px;
       box-sizing: border-box;

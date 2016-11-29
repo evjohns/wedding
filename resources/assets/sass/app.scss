@@ -50,8 +50,12 @@ html {
 			color: #555;
 		}
 		footer {
-			position: absolute;
-			bottom: 0;
+			position:fixed;
+		   left:0px;
+		   bottom:0px;
+		   height:30px;
+		   width:100%;
+		   background:#999;
 		}
 		nav.main-nav {
 			padding: 0 20px;
