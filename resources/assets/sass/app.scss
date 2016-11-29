@@ -51,23 +51,6 @@ html {
 		p {
 			color: #555;
 		}
-		footer#footer {
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-		   	background: rgba(0, 0, 0, 0.8);
-		   	text-align: center;
-		   	div {
-		   		padding: 20px 0;
-		   		color: #fff;
-		   		a {
-		   			color: #fff;
-		   			&:hover {
-		   				text-decoration: none;
-		   			}
-		   		}
-		   	}
-		}
 		nav.main-nav {
 			padding: 0 20px;
 		    -webkit-box-sizing: border-box;

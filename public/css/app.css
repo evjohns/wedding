@@ -44,19 +44,6 @@ html {
     transform: rotate(360deg); } }
     html body p {
       color: #555; }
-    html body footer#footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.8);
-      text-align: center; }
-      html body footer#footer div {
-        padding: 20px 0;
-        color: #fff; }
-        html body footer#footer div a {
-          color: #fff; }
-          html body footer#footer div a:hover {
-            text-decoration: none; }
     html body nav.main-nav {
       padding: 0 20px;
       box-sizing: border-box;
