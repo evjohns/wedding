@@ -1,1 +1,1 @@
-<div>Designed and built by <a href="www.evjohns.com" target="_blank">evjohns.com</a></div>
+<div>Designed and built by <a href="http://evjohns.com/" target="_blank">evjohns.com</a></div>

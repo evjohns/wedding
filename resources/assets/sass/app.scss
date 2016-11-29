@@ -9,6 +9,7 @@ html {
 		color: rgba(0,0,0,.7);
 		letter-spacing: 1px;
 		line-height: 1.6em;
+		position: relative;
 		hr {
 			width: 75%;
 			margin: 80px auto 30px auto;
@@ -50,10 +51,11 @@ html {
 			color: #555;
 		}
 		footer#footer {
-			display: block;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
 		   	background: rgba(0, 0, 0, 0.8);
 		   	text-align: center;
-		   	clear: both;
 		   	div {
 		   		padding: 20px 0;
 		   		color: #fff;
