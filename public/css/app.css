@@ -282,6 +282,8 @@ html {
       html body .venue-container h3 {
         text-align: center;
         padding: 30px 0; }
+      html body .venue-container h4 {
+        padding-top: 30px; }
       html body .venue-container .activities .basecamp-vid {
         padding-top: 30px; }
         html body .venue-container .activities .basecamp-vid iframe {
