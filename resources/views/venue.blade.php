@@ -205,6 +205,10 @@
 		</div>
 	</section>
 
+	<footer id="footer">
+    	@include("footer")
+	</footer>
+
 	<script>
 		$(function() {
 			var demo1 = $("#venue-slider").slippry({
@@ -288,6 +292,5 @@
 			});
 		});
 	</script>
-</section>
 
 @stop
