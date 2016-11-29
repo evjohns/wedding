@@ -49,13 +49,13 @@ html {
 		p {
 			color: #555;
 		}
-		footer {
-			position:fixed;
-		   	left:0px;
-		   	bottom:0px;
-		   	width:100%;
+		footer#footer {
+			display: block;
 		   	background:#fff;
 		   	height: 40px;
+		   	div {
+		   		padding: 20px 0;
+		   	}
 		}
 		nav.main-nav {
 			padding: 0 20px;
