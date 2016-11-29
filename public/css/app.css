@@ -14,17 +14,16 @@ html {
       min-height: 100%;
       position: relative; }
     html body footer#footer {
-      z-index: -1;
       position: absolute;
       bottom: 0px;
       width: 100%;
       text-align: center;
-      height: 60px;
+      height: 40px;
       background: #fff;
       border-top: 1px solid rgba(0, 0, 0, 0.1); }
       html body footer#footer div {
         line-height: 20px;
-        padding: 20px 0; }
+        padding: 10px 0; }
     html body hr {
       width: 75%;
       margin: 80px auto 30px auto; }
