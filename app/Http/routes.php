@@ -36,3 +36,5 @@ Route::post('rsvp/submitnotattending', 'RsvpController@actionSubmitNotAttending'
 Route::auth();
 
 Route::get('/admin', 'HomeController@index');
+
+Route::get('/register', 'HomeController@index');
