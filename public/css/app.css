@@ -10,14 +10,18 @@ html {
     line-height: 1.6em;
     display: block; }
     html body #page {
-      padding-bottom: 50px;
+      padding-bottom: 80px;
       min-height: 100%;
       position: relative; }
     html body footer#footer {
       position: absolute;
       bottom: 0px;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      height: 60px; }
+      html body footer#footer div {
+        line-height: 20px;
+        padding: 20px 0; }
     html body hr {
       width: 75%;
       margin: 80px auto 30px auto; }
