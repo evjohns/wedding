@@ -51,10 +51,18 @@ html {
 		}
 		footer#footer {
 			display: block;
-		   	background:#fff;
+		   	background: rgba(0, 0, 0, 0.8);
 		   	height: 40px;
+		   	text-align: center;
 		   	div {
 		   		padding: 20px 0;
+		   		color: #fff;
+		   		a {
+		   			color: #fff;
+		   			&:hover {
+		   				text-decoration: none;
+		   			}
+		   		}
 		   	}
 		}
 		nav.main-nav {

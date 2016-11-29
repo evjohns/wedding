@@ -44,10 +44,16 @@ html {
       color: #555; }
     html body footer#footer {
       display: block;
-      background: #fff;
-      height: 40px; }
+      background: rgba(0, 0, 0, 0.8);
+      height: 40px;
+      text-align: center; }
       html body footer#footer div {
-        padding: 20px 0; }
+        padding: 20px 0;
+        color: #fff; }
+        html body footer#footer div a {
+          color: #fff; }
+          html body footer#footer div a:hover {
+            text-decoration: none; }
     html body nav.main-nav {
       padding: 0 20px;
       box-sizing: border-box;
