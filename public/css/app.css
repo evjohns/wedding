@@ -15,6 +15,7 @@ html {
       position: relative; }
     html body footer#footer {
       opacity: 0.8;
+      font-size: 12px;
       position: absolute;
       bottom: 0px;
       width: 100%;
