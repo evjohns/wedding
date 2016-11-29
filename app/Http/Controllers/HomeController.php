@@ -44,8 +44,6 @@ class HomeController extends Controller
                 $attendingGuests[$guest->id]['main'] = ChildrensMain::where('id', $guest->main)->get();
             }
 
-            $attendingGuests[$guest->id]['starter'] = Starter::where('id', $guest->starter)->get();
-            $attendingGuests[$guest->id]['main'] = Main::where('id', $guest->main)->get();
             $attendingGuests[$guest->id]['requirements'] = $guest->requirements;
             $attendingGuests[$guest->id]['date'] = $guest->created_at;
         }
