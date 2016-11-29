@@ -9,6 +9,8 @@ html {
     letter-spacing: 1px;
     line-height: 1.6em;
     display: block; }
+    html body #page {
+      padding-bottom: 50px; }
     html body hr {
       width: 75%;
       margin: 80px auto 30px auto; }
