@@ -12,10 +12,10 @@
 	<p>The lodges are self catered, sleeping from 4 to 6 people. All are 5 star and very well equipped. All lodges have a full sized kitchen with all mod cons you might need and they all have an outside terrace, some even have a hot tub!</p>
 
 	<h4>Booking</h4>
-	<p>The lodges sleep 4 - 6 and can be booked from either Friday to Monday or Friday to Friday. Prices start from £479 for the weekend and you'll need to pay a 25% deposit when you book. Please go <a href="http://www.gwelanmor.com/stay">here</a> to view more details on the lodges.</p>
+	<p>The lodges can be booked from either Friday to Monday or Friday to Friday. Prices start from £479 for the weekend and you'll need to pay a 25% deposit when you book. Please go <a href="http://www.gwelanmor.com/stay" target="_blank">here</a> to view more details on the lodges.</p>
 	<p>Please book over the phone so Gwel can add you to our wedding party.</p>
 	<p><a href="http://www.gwelanmor.com/stay">www.gwelanmor.com</a></p>
-	<p href="tel:01209 842354">01209 842354</p>
+	<p><a href="tel:01209 842354">01209 842354</a></p>
 
 	<div class="venue-slider-wrapper">
 		<ul id="venue-slider">
