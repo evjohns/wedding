@@ -317,6 +317,9 @@ html {
 			
 		}
 		.rsvp-container {
+			> div {
+				float: none;
+			}
 			h3, h4 {
 				text-align: center;
 			}

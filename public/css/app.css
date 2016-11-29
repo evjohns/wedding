@@ -236,6 +236,8 @@ html {
         padding: 40px 0; }
       html body .food-container h4 {
         margin-top: 20px; }
+    html body .rsvp-container > div {
+      float: none; }
     html body .rsvp-container h3, html body .rsvp-container h4 {
       text-align: center; }
     html body .rsvp-container form.rsvpForm {
