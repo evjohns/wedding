@@ -12,6 +12,14 @@ html {
 		display: block;
 		#page {
 			padding-bottom: 50px;
+			min-height: 100%;
+			position: relative;
+		}
+		footer#footer {
+			position: absolute;
+			bottom: 0px;
+			width: 100%;
+			text-align: center;
 		}
 		hr {
 			width: 75%;
