@@ -292,7 +292,7 @@ html {
               width: 100%; } }
           @media screen and (max-width: 500px) {
             html body .venue-container .activities .basecamp-vid iframe {
-              width: 250px; } }
+              height: 240px; } }
       html body .venue-container .location .address {
         padding-top: 30px;
         float: left;
