@@ -14,7 +14,7 @@
 	<h4>Booking</h4>
 	<p>The lodges can be booked from either Friday to Monday or Friday to Friday. Prices start from £479 for the weekend and you'll need to pay a 25% deposit when you book. More information can be found <a href="http://www.gwelanmor.com/stay" target="_blank">here.</a></p>
 	<p>Please book over the phone so Gwel can add you to our wedding party.</p>
-	<p><a href="http://www.gwelanmor.com/stay">www.gwelanmor.com</a></p>
+	<p><a href="http://www.gwelanmor.com/stay" target="_blank">www.gwelanmor.com</a></p>
 	<p><a href="tel:01209 842354">01209 842354</a></p>
 
 	<div class="venue-slider-wrapper">
