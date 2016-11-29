@@ -46,9 +46,9 @@ html {
       position: fixed;
       left: 0px;
       bottom: 0px;
-      height: 30px;
       width: 100%;
-      background: #999; }
+      background: #fff;
+      height: 40px; }
     html body nav.main-nav {
       padding: 0 20px;
       box-sizing: border-box;
