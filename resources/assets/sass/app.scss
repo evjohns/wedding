@@ -394,6 +394,9 @@ html {
 						@media screen and (max-width: 620px) {
 							width: 100%;
 						}
+						@media screen and (max-width: 500px) {
+							width: 250px;
+						}
 					}
 				}
 			}
