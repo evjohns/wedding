@@ -45,7 +45,8 @@ html {
     html body footer#footer {
       display: block;
       background: rgba(0, 0, 0, 0.8);
-      text-align: center; }
+      text-align: center;
+      clear: both; }
       html body footer#footer div {
         padding: 20px 0;
         color: #fff; }
