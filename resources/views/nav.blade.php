@@ -41,11 +41,11 @@ $(".burger-nav").click(function() {
 	$(".nav-links").toggleClass("active");
 
 	if ($(this).hasClass("active")) {
-		$("#page").delay(500).animate({"margin-right": "250px", "margin-left": "-250px"}, 200);
-		$("#side-nav").delay(500).animate({"width": "250px"}, 200);
+		$("#page").animate({"margin-right": "250px", "margin-left": "-250px"}, 500);
+		$("#side-nav").animate({"width": "250px"}, 500);
 	} else {
-		$("#page").delay(500).animate({"margin-right": "0px", "margin-left": "0px"}, 200);
-		$("#side-nav").delay(500).animate({"width": "0"}, 200);
+		$("#page").animate({"margin-right": "0px", "margin-left": "0px"}, 500);
+		$("#side-nav").animate({"width": "0"}, 500);
 	}
 });
 </script>
