@@ -235,14 +235,16 @@ html {
 		    top: 0;
 		    right: 0;
 		    overflow-x: hidden; /* Disable horizontal scroll */
-		    padding-top: 20px; /* Place content 60px from the top */
+		    padding-top: 50px; /* Place content 60px from the top */
 		    a {
-			    padding: 8px 8px 8px 32px;
+			    padding: 8px 8px 8px 0px;
+			    margin-left: 32px;
 			    font-size: 16px;
 			    display: block;
 			    transition: 0.3s;
 			    color: rgba(36,36,36,0.9);
 				letter-spacing: 2px;
+				border-bottom: 1px dashed rgba(0,0,0,0.1);
 				&:hover {
 					cursor: pointer;
 					opacity: 0.8;
