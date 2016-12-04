@@ -71,7 +71,7 @@ html {
       background-color: #fff;
       -moz-osx-font-smoothing: auto;
       -webkit-font-smoothing: subpixel-antialiased;
-      position: fixed;
+      position: relative;
       /*css for the nav burger icon*/ }
       html body nav.main-nav div.nav-container {
         padding: 20px 0;
