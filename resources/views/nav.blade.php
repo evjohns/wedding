@@ -42,9 +42,11 @@ $(".burger-nav").click(function() {
 
 	if ($(this).hasClass("active")) {
 		$("#page").animate({"margin-right": "250px", "margin-left": "-250px"}, 500);
+		$("nav.main-nav").animate({"left": "-250px"}, 500);
 		$("#side-nav").animate({"width": "250px"}, 500);
 	} else {
 		$("#page").animate({"margin-right": "0px", "margin-left": "0px"}, 500);
+		$("nav.main-nav").animate({"left": "0px"}, 500);
 		$("#side-nav").animate({"width": "0"}, 500);
 	}
 });
