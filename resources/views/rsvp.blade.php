@@ -7,7 +7,7 @@
 	<div class="row>">
 		<div class="col-md-8 col-md-offset-2">
 		<h4>RSVP</h4>
-		<p class="text-center">Please rsvp and make your food choices by filling in the form below.</p>
+		<p class="text-center">Please rsvp by the 1st of February 2018 and make your food choices by filling in the form below.</p>
 		
 			<form class="rsvpForm form-horizontal">
 				<div class="panel panel-default">
