@@ -25,7 +25,7 @@
 		      <img src="{{ asset('/img/lowena-1.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
 		  </li>
-		  <li>
+		  <!-- <li>
 		    <a href="#slide2">
 		      <img src="{{ asset('/img/lowena-2.jpg') }}"  alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
@@ -34,7 +34,7 @@
 		    <a href="#slide3">
 		      <img src="{{ asset('/img/lowena-3.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
 		    </a>
-		  </li>
+		  </li> -->
 		  <li>
 		    <a href="#slide4">
 		      <img src="{{ asset('/img/lowena-4.jpg') }}" alt="Lowena Lodge Sleeps 4 - 5">
