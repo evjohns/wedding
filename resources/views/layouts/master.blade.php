@@ -1,13 +1,17 @@
 <!doctype html>
 <html>
 <head>
+	<html lang="en">
 	<meta charset="utf-8">
-	<meta name="Evan and Fayes Wedding 19.05.2018" content="">
+	<meta name="description" content="Evan and Fayes Wedding 19.05.2018">
 	<meta name="author" content="Scotch">
-	<meta name="viewport" content="width=device-width">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Evan & Faye 19.05.2018</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <title>Evan & Faye 19.05.2018</title>
+	<meta name="google-site-verification" content="fUktjoz1JdTs1-Den7DY7cdI4dmZPIjaVNM895PiXTE" />
+    <meta name="keywords" content="Evan and Faye Johnson, wedding, Cornwall, Gwel an Mor, RSVP">
+    <meta name="author" content="Evan Johnson">
+
     <link rel="stylesheet" href="{{ asset('/css/slippry.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">

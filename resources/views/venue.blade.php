@@ -14,6 +14,7 @@
 		<h4>Booking</h4>
 		<p>The lodges can be booked from either Friday to Monday or Friday to Friday. Prices start from £479 for the weekend and you'll need to pay a 25% deposit when you book. More information can be found <a href="http://www.gwelanmor.com/stay" target="_blank">here.</a></p>
 		<p>Please book over the phone so Gwel can add you to our wedding party.</p>
+		<p>Pets are welcome at Gwel, just let them know you're bringing one and they will give you a pet friendly lodge.</p>
 		<p><a href="http://www.gwelanmor.com/stay" target="_blank">www.gwelanmor.com</a></p>
 		<p><a href="tel:01209 842354">01209 842354</a></p>
 	</div>
@@ -183,11 +184,11 @@
 	<div class="location">
 		<h3>Location</h3>
 		<p>Gwel is in Portreath on the north coast of Cornwall. Roughly half an hour away from Newquay, St Ives and Truro. Hayle is about 20 minutes away and has a beautiful long beach where surfboards can be hired as well as the normal beach related activities.</p>
-		
+
 		<div class="address">
 			<address>
 			Address:<br>
-			Gwel an Mor Luxury Resort<br> 
+			Gwel an Mor Luxury Resort<br>
 			Feadon Lane<br>
 			Portreath<br>
 			Cornwall<br>
@@ -195,7 +196,7 @@
 			</address>
 			<a href="https://www.google.com/maps/place/Gwel+an+Mor+Resort/@50.25547,-5.287703,13z/data=!4m5!3m4!1s0x0:0x27b0711b8ac7254b!8m2!3d50.2554704!4d-5.2877033?hl=en-US" target="_blank"><button class="btn btn-primary">Get Directions</button></a>
 		</div>
-		
+
 		<div class="google-map">
 			<iframe src="https://www.google.com/maps/embed/v1/place?q=Gwel+an+Mor+Resort
 		      &zoom=13
