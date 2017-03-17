@@ -1,1 +1,1 @@
-<div>Copyright <a href="http://evjohns.com/" target="_blank">evjohns.com</a> 2017</div>
+<div>Designed and built by <a href="http://evjohns.com/" target="_blank">evjohns.com</a></div>
