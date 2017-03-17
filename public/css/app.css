@@ -100,6 +100,14 @@ html {
           html body nav.main-nav div.nav-container ul > li {
             display: inline-block;
             padding: 10px; }
+            html body nav.main-nav div.nav-container ul > li:after {
+              display: block;
+              content: '';
+              border-bottom: 2px solid #4285f4;
+              transform: scaleX(0);
+              transition: transform 250ms ease-in-out; }
+            html body nav.main-nav div.nav-container ul > li:hover:after {
+              transform: scaleX(1); }
             html body nav.main-nav div.nav-container ul > li a {
               color: rgba(36, 36, 36, 0.9);
               letter-spacing: 2px; }

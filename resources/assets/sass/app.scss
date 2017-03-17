@@ -114,6 +114,14 @@ html {
 					>li {
 						display: inline-block;
 						padding: 10px;
+						&:after {
+							display: block;
+							content: '';
+							border-bottom: 2px solid #4285f4;
+							transform: scaleX(0);
+							transition: transform 250ms ease-in-out;
+						}
+						&:hover:after { transform: scaleX(1); }
 						a {
 							color: rgba(36,36,36,.9);
 							letter-spacing: 2px;
@@ -334,7 +342,7 @@ html {
 			h4 {
 				margin-top: 20px;
 			}
-			
+
 		}
 		.rsvp-container {
 			div.col-md-8 {
