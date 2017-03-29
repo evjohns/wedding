@@ -12,11 +12,11 @@
     <meta name="keywords" content="Evan and Faye Johnson, wedding, Cornwall, Gwel an Mor, RSVP">
     <meta name="author" content="Evan Johnson">
 
-    <link rel="stylesheet" href="{{ asset('/css/slippry.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/slippry.min.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/app.min.css') }}">
 
     <script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
