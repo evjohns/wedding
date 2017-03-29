@@ -99,13 +99,14 @@ html {
               display: none; } }
           html body nav.main-nav div.nav-container ul > li {
             display: inline-block;
-            padding: 10px; }
+            padding: 10px 10px 0px 10px; }
             html body nav.main-nav div.nav-container ul > li:after {
               display: block;
               content: '';
               border-bottom: 2px solid #4285f4;
               transform: scaleX(0);
-              transition: transform 250ms ease-in-out; }
+              transition: transform 250ms ease-in-out;
+              margin-top: 10px; }
             html body nav.main-nav div.nav-container ul > li:hover:after {
               transform: scaleX(1); }
             html body nav.main-nav div.nav-container ul > li a {
@@ -247,6 +248,7 @@ html {
           display: none; }
         html body .hp-container .hp-slider-wrapper .sy-slides-wrap ul.sy-list li.sy-slide img {
           position: fixed;
+          top: 0;
           bottom: -50%;
           left: 0;
           min-height: 100%;
