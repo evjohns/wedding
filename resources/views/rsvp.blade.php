@@ -8,7 +8,7 @@
 		<div class="col-md-8 col-md-offset-2">
 		<h4>RSVP</h4>
 		<p class="text-center">Please rsvp by the 1st of February 2018 and make your food choices by filling in the form below.</p>
-		
+
 			<form class="rsvpForm form-horizontal">
 				<div class="panel panel-default">
 					<div class="panel-heading">Number of guests</div>
@@ -40,7 +40,7 @@
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 
 				<div class="panel panel-default guests-panel">
 					<div class="panel-heading">Guests</div>
@@ -66,7 +66,7 @@
 				<button class="btn btn-success submit pull-right">Submit</button>
 				</div>
 			</form>
-			
+
 			<div class="panel panel-default success-panel">
 				<div class="panel-body">
 					<h4><img src="{{ asset('/img/green-tick.png') }}">Thanks! We look forward to seeing you at the wedding!</h4>
@@ -107,7 +107,7 @@ $(".adultSelect").change(function() {
 			"<p class='adult"+ count +"Err error'></p>" +
 			"</div>" +
 			"</div>");
-		
+
 		count ++;
 	}
 
@@ -176,7 +176,7 @@ $("#submitNamesNotAttending").click(function(e) {
 $("#submitNames").click(function(e) {
 	e.preventDefault();
 	$("p.error").empty();
-	
+
 	var errors = false;
 	$(".adults input").each(function() {
 		if ($(this).val().length < 1 ) {
@@ -212,7 +212,7 @@ $("#submitNames").click(function(e) {
 			"<label class='control-label col-md-4' for='adult-starter'>Starter</label>" +
 			"<div class='col-md-6'>" +
 			"<select id='"+ this.id +"-starter' class='adult-starter form-control'>");
-		
+
 		@foreach ($starters as $starter)
 			var starter =  "{{ $starter->description }}";
 			$("select#"+ this.id +"-starter").append("<option data-id='{{ $starter->id }}'>"+ starter +"</option>");
@@ -225,17 +225,17 @@ $("#submitNames").click(function(e) {
 		$(".adultFood").append("<div class='form-group'>" +
 			"<label class='control-label col-md-4' for='adult-main'>Mains</label>" +
 			"<div class='col-md-6'>" +
-			"<select id='"+ this.id +"-main' class='adult-main form-control'>");	
+			"<select id='"+ this.id +"-main' class='adult-main form-control'>");
 
 		@foreach ($mains as $main)
 			var main =  "{{ $main->description }}";
 			$("select#"+ this.id +"-main").append("<option data-id='{{ $main->id }}'>"+ main +"</option>");
 		@endforeach
-		
+
 		$(".adultFood").append("</select>" +
 			"</div>" +
-			"</div>");	
-		
+			"</div>");
+
 		$(".adultFood").append("<div class='form-group'>" +
 			"<label class='control-label col-md-4' for='adult-dessert'>Dessert</label>" +
 			"<div class='col-md-6'>" +
@@ -245,7 +245,7 @@ $("#submitNames").click(function(e) {
 			"Chocolate Brownie<br></p>" +
 			"</div>" +
 			"</div>");
-		
+
 		$(".adultFood").append("<div class='form-group border-bottom'>" +
 			"<label class='control-label col-md-4' for='adult-requirements'>Any dietry requirements or allergies?</label>" +
 			"<div class='col-md-6'>" +
@@ -272,7 +272,7 @@ $("#submitNames").click(function(e) {
 			"<label class='control-label col-md-4' for='child-starter'>Main</label>" +
 			"<div class='col-md-6'>" +
 			"<select id='"+ this.id +"-main' class='child-starter form-control'>");
-		
+
 		@foreach ($childrens_mains as $main)
 			var main =  "{{ $main->description }}";
 			$("select#"+ this.id +"-main").append("<option data-id='{{ $main->id }}'>"+ main +"</option>");
@@ -284,7 +284,7 @@ $("#submitNames").click(function(e) {
 			"<label class='col-md-4'></label>" +
 			"<p class='col-md-6 nb'>n.b. There will also be a selection of sides available on the day.</p>" +
 			"</div>");
-		
+
 		$(".childrensFood").append("<div class='form-group'>" +
 			"<label class='control-label col-md-4' for='child-dessert'>Dessert</label>" +
 			"<div class='col-md-6'>" +
@@ -294,7 +294,7 @@ $("#submitNames").click(function(e) {
 			"Strawberry<br></p>" +
 			"</div>" +
 			"</div>");
-		
+
 		$(".childrensFood").append("<div class='form-group border-bottom'>" +
 			"<label class='control-label col-md-4' for='child-requirements'>Any dietry requirements or allergies?</label>" +
 			"<div class='col-md-6'>" +
@@ -309,7 +309,7 @@ $("#submitNames").click(function(e) {
 $("button.submit").click(function(e) {
 	e.preventDefault();
 	$('.overlay').show();
-	
+
 	$(".adults input").each(function() {
 		var name = $(this).val();
 		var starter = $("select#" + this.id + "-starter option:selected").data("id");
@@ -320,7 +320,7 @@ $("button.submit").click(function(e) {
 			type: "post",
 			url: "/rsvp/submit",
 			data: {"type": "adult", "name": name, "starter": starter, "main": main, "requirements": requirements},
-			success: function() 
+			success: function()
 			{
 				$(".success-panel").show();
 			}
@@ -336,7 +336,7 @@ $("button.submit").click(function(e) {
 			type: "post",
 			url: "/rsvp/submit",
 			data: {"type": "child", "name": name, "main": main, "requirements": requirements},
-			success: function() 
+			success: function()
 			{
 				$(".success-panel").show();
 			}
