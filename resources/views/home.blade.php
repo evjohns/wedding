@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
 <div class="container">
@@ -8,7 +8,7 @@
                 <div class="panel-heading">Guests</div>
 
                 <div class="panel-body">
-                    
+
                     <ul class="nav nav-tabs">
                       <li class="active"><a data-toggle="tab" href="#attending">Attending</a></li>
                       <li><a data-toggle="tab" href="#not-attending">Not Attending</a></li>
@@ -16,7 +16,7 @@
 
                     <div class="tab-content">
                       <div id="attending" class="tab-pane fade in active">
-                        
+
                         <table class="table table-hover table-responsive table-attending">
                         <thead>
                           <tr>
@@ -29,7 +29,7 @@
                           </tr>
                         </thead>
                         <tbody>
-                        
+
                         @foreach ($attending as $guest)
                             <tr>
                                 <td>{{ $guest['name'] }}</td>
@@ -46,7 +46,7 @@
                                 <td>{{ $guest['date']->format('d-m-Y') }}</td>
                             </tr>
                         @endforeach
-                        
+
                         </tbody>
                       </table>
                       <a id="export-attending" role='button' href="#" class="btn btn-success pull-right">Export to Spreadsheet</a>
@@ -60,14 +60,14 @@
                           </tr>
                         </thead>
                         <tbody>
-                        
+
                         @foreach ($notAttending as $guest)
                             <tr>
                                 <td>{{ $guest['name'] }}</td>
                                 <td>{{ $guest['created_at']->format('d-m-Y') }}</td>
                             </tr>
                         @endforeach
-                        
+
                         </tbody>
                       </table>
                       <a id="export-not-attending" role='button' href="#" class="btn btn-success pull-right">Export to Spreadsheet</a>
@@ -121,7 +121,7 @@ $(document).ready(function () {
         }
 
         //------------------------------------------------------------
-        // Helper Functions 
+        // Helper Functions
         //------------------------------------------------------------
         // Format the output so it has the appropriate delimiters
         function formatRows(rows){
@@ -131,16 +131,16 @@ $(document).ready(function () {
         }
         // Grab and format a row from the table
         function grabRow(i,row){
-             
+
             var $row = $(row);
             //for some reason $cols = $row.find('td') || $row.find('th') won't work...
-            var $cols = $row.find('td'); 
-            if(!$cols.length) $cols = $row.find('th');  
+            var $cols = $row.find('td');
+            if(!$cols.length) $cols = $row.find('th');
 
             return $cols.map(grabCol)
                         .get().join(tmpColDelim);
         }
-        // Grab and format a column from the table 
+        // Grab and format a column from the table
         function grabCol(j,col){
             var $col = $(col),
                 $text = $col.text();
@@ -156,10 +156,10 @@ $(document).ready(function () {
         // var outputFile = 'export'
         var outputFile = 'guests-attending';
         outputFile = outputFile.replace('.csv','') + '.csv'
-         
+
         // CSV
         exportTableToCSV.apply(this, [$('.table-attending'), outputFile]);
-        
+
         // IF CSV, don't do event.preventDefault() or return false
         // We actually need this to be a typical hyperlink
     });
@@ -169,10 +169,10 @@ $(document).ready(function () {
         alert('hello');
         var outputFile = 'guests-not-attending';
         outputFile = outputFile.replace('.csv','') + '.csv'
-         
+
         // CSV
         exportTableToCSV.apply(this, [$('.table-not-attending'), outputFile]);
-        
+
         // IF CSV, don't do event.preventDefault() or return false
         // We actually need this to be a typical hyperlink
     });

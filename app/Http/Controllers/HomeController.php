@@ -30,7 +30,7 @@ class HomeController extends Controller
     {
         $attending = Guest::where('attending', 1)->get();
         $notAttending = Guest::where('attending', 0)->get();
-        
+
         $attendingGuests = [];
 
         foreach ($attending as $guest) {
