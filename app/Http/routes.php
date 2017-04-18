@@ -37,4 +37,6 @@ Route::auth();
 
 Route::get('/admin', 'HomeController@index');
 
+Route::get('/login', 'HomeController@index');
+
 Route::get('/register', 'HomeController@index');
