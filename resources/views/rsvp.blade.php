@@ -282,8 +282,23 @@ $("#submitNames").click(function(e) {
 			"</div>" +
 			"<div class='form-group'>" +
 			"<label class='col-md-4'></label>" +
-			"<p class='col-md-6 nb'>n.b. There will also be a selection of sides available on the day.</p>" +
 			"</div>");
+
+		$(".childrensFood").append("<div class='form-group'>" +
+			"<label class='control-label col-md-4' for='child-side'>Side</label>" +
+			"<div class='col-md-6'>" +
+			"<select id='"+ this.id +"-side' class='child-starter form-control'>");
+
+			@foreach ($childrens_sides as $side)
+				var side =  "{{ $side->description }}";
+				$("select#"+ this.id +"-side").append("<option data-id='{{ $side->id }}'>"+ side +"</option>");
+			@endforeach
+
+			$(".childrensFood").append("</select>" +
+				"</div>" +
+				"<div class='form-group'>" +
+				"<label class='col-md-4'></label>" +
+				"</div>");
 
 		$(".childrensFood").append("<div class='form-group'>" +
 			"<label class='control-label col-md-4' for='child-dessert'>Dessert</label>" +
@@ -330,12 +345,13 @@ $("button.submit").click(function(e) {
 	$(".children input").each(function() {
 		var name = $(this).val();
 		var main = $("select#" + this.id + "-main option:selected").data("id");
+		var side = $("select#" + this.id + "-side option:selected").data("id");
 		var requirements = $("textarea#" + this.id + "-requirements").val();
 
 		$.ajax({
 			type: "post",
 			url: "/rsvp/submit",
-			data: {"type": "child", "name": name, "main": main, "requirements": requirements},
+			data: {"type": "child", "name": name, "main": main, "side": side, "requirements": requirements},
 			success: function()
 			{
 				$(".success-panel").show();

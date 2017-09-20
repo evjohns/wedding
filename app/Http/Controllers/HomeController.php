@@ -8,6 +8,7 @@ use App\Guest;
 use App\Starter;
 use App\Main;
 use App\ChildrensMain;
+use App\ChildrensSide;
 
 class HomeController extends Controller
 {
@@ -44,6 +45,7 @@ class HomeController extends Controller
                 $attendingGuests[$guest->id]['main'] = ChildrensMain::where('id', $guest->main)->get();
             }
 
+            $attendingGuests[$guest->id]['side'] = ChildrensSide::where('id', $guest->side)->get();
             $attendingGuests[$guest->id]['requirements'] = $guest->requirements;
             $attendingGuests[$guest->id]['date'] = $guest->created_at;
         }

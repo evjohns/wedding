@@ -19,6 +19,7 @@ class Guests extends Migration
             $table->string('name');
             $table->string('starter');
             $table->string('main');
+            $table->string('side');
             $table->string('requirements');
             $table->boolean('attending');
             $table->timestamps();

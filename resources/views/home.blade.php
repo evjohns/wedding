@@ -24,6 +24,7 @@
                             <th>Adult/Child</th>
                             <th>Starter</th>
                             <th>Main</th>
+                            <th>Side</th>
                             <th>Dietry Requirements</th>
                             <th>Date</th>
                           </tr>
@@ -42,6 +43,13 @@
                                 @endif
 
                                 <td>{{ $guest['main']['0']->short_description }}</td>
+
+                                @if ($guest['type'] == 'child')
+                                    <td>{{ $guest['side']['0']->short_description }}</td>
+                                @else
+                                    <td>N/A</td>
+                                @endif
+
                                 <td>{{ $guest['requirements'] }}</td>
                                 <td>{{ $guest['date']->format('d-m-Y') }}</td>
                             </tr>

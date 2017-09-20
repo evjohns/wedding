@@ -29,13 +29,10 @@
 
 	<h3>Childrens Menu</h3>
 	<h4>Main</h4>
-	<p>Children have a choice of either Chicken Goujons or Margherita Pizza as a main. They will also be able to choose two sides on the day from a choice of:</p>
-	<p>Mashed Potatoes</p>
-	<p>Fries</p>
-	<p>Boiled Potatoes</p>
-	<p>Selection of seasonal vegetables</p>
-	<p>Peas</p>
+	<p>Children have a choice of either Chicken Goujons or Margherita Pizza as a main. They will both come with fries, please choose either:</p>
 	<p>Baked beans</p>
+	<p>or</p>
+	<p>Peas</p>
 
 	<h4>Dessert</h4>
 	<p>Dessert will be a selection of ice cream from:</p>
@@ -44,5 +41,5 @@
 	<p>Strawberry</p>
 
 </section>
-	
+
 @stop
